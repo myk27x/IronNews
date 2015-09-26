@@ -17,6 +17,9 @@ require 'erb'
 Tilt.register Tilt::ERBTemplate, 'html.erb'
 
 get '/' do
-
   erb :home
+end
+
+get '/jobs' do
+  erb :jobs
 end
