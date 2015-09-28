@@ -6,51 +6,93 @@
   height: 30px;
   width: 1240px;
 }
+
 #header-logo {
   padding-right: 5px;
   border: 2px solid #083452;
   line-height: 27px;
 }
+
 div h3 {
   padding-left: 7px;
   margin: 0;
 }
+
 #header-links {
   display: flex;
 }
-#header-links div {
-  /*padding-left: 15px;
-  padding-right: 15px;*/
-}
+
 #header-links div a {
   border-right: 1px solid #083452;
   padding-left: 15px;
   padding-right: 15px;
 }
+
 #left-link {
   margin-right: 20px;
 }
+
 #big-spacer {
-  width: 584px;
+  width: 590px;
   height: 30px;
 }
+
 #login {
   border: 2px solid #083452;
   line-height: 27px;
 }
+
 a:link {
   font-family: sans-serif;
   font-size: 15px;
   text-decoration: none;
   color: #083452;
 }
+
 a:visited {
   color: #083452;
 }
+
 .posts {
   background-color: #e8e5ff;
   width: 1240px;
 }
+
+#add_form {
+  text-align: center;
+}
+
+#add_form h1 {
+  margin: 0px;
+  padding-top: 100px;
+}
+
+form {
+  font-size: 20px;
+}
+
+input {
+  height: 25px;
+  font-size: 13px;
+}
+
+#title {
+  width: 400px;
+}
+
+#link {
+  width: 165px;
+  margin-right: 8px;
+}
+
+#email {
+  width: 165px;
+}
+
+#button {
+  margin-bottom: 100px;
+}
+
 #triangle {
   display: inline-block;
   position: relative;
@@ -61,25 +103,76 @@ a:visited {
   border-width: 0 6px 10.4px 6px;
   border-color: transparent transparent #007bff transparent;
 }
+
 ol {
   margin: 0px;
   padding-left: 30px;
 }
+
 li {
   padding-top: 7px;
   font-size: 16px;
 }
+
 #post_link {
   font-size: 18px;
   margin-left: -2px;
 }
+
 .sub_link {
   font-size: 11px;
   padding-left: 6px;
 }
+
 .sub_link a {
   font-size: 11px;
 }
+
 .sub_link span a:hover {
   text-decoration: underline;
+}
+
+#more {
+  padding-top: 10px;
+  padding-bottom: 15px;
+  padding-left: 42px;
+}
+
+#more a:link {
+  text-decoration: underline;
+}
+
+#splitter {
+  background-color: #106DB3;
+  width: 1240px;
+  height: 4px;
+}
+
+#footer {
+  background-color: #e8e5ff;
+  width: 1240px;
+  height: 175px;
+  text-align: center;
+}
+
+#house_ad {
+  padding-top: 27px;
+  padding-bottom: 10px;
+}
+
+#footer_links {
+  padding-top: 15px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#footer_links a {
+  font-size: 12px;
+  padding-right: 5px;
+  padding-left: 5px;
+  border-right: 1px solid #106DB3;
+}
+
+#footer_spacer {
+  width: 355px;
 }
