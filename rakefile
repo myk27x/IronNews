@@ -9,14 +9,6 @@ ActiveRecordMigrations.configure do |config|
       'database' => 'ironnews.sqlite3'
     }
   }
-
-  # Other settings:
-  # config.schema_format = :sql # default is :ruby
 end
 
 ActiveRecordMigrations.load_tasks
-
-# desc "Say hello to the world"
-# task "hello" do
-#   puts "Hello world"
-# end
