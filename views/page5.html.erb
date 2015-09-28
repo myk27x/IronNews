@@ -19,7 +19,7 @@
     </div>
   </div>
   <div class="posts">
-    <ol> <% Stories.all.order('created_at desc').limit(10).each do |story| %>
+    <ol start="41"> <% Stories.all.order('created_at desc').limit(10).offset(40).each do |story| %>
       <li>
         <span id="triangle"></span>
         <a id="post_link"href="<%= story.link %>"><%= story.title %></a>
@@ -29,7 +29,7 @@
       </div>
       <% end %>
     </ol>
-    <div id="more" style="padding-left: 103px"><a href="/page2">Next -></a></div>
+    <div id="more"><a style="padding-right: 8px" href="/page4"><- Prev </a></div>
   </div>
   <div id="footer">
     <div id="splitter"></div>
